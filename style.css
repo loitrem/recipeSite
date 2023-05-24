@@ -30,7 +30,6 @@ header{
   }
 
 .mainContainer{
-    border: 2px solid black;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -129,4 +128,55 @@ header{
 
 .dropdown:hover .dropdownMenu {
   background-color: whitesmoke;
+}
+
+.recipeText{
+  font-size: 20px;
+}
+
+.cookInfo{
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row{
+  display: flex;
+  justify-content:left;
+  height: 50px;
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  padding: 10px;
+  text-align: left;
+}
+
+.ingredientsList{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.list{
+  text-align: left;
+  font-weight: bold;
+}
+
+.directions{
+  text-align: left;
+}
+
+.directionsTitle{
+  text-align: center;
+}
+
+.steps{
+ font-size: 22px;
 }
